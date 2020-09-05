@@ -10,11 +10,7 @@ body{
 	/*background: #7d7d7d;*/
 
 }
-.navbar-static-top{
-	width: 100%;
-	margin: 0px;
 
-}
 a{
 	text-decoration:none;
 	color:  #c5c6c7;
@@ -53,7 +49,7 @@ a{
 	margin: 0px 10px;
 	border-radius:  500px;
 	text-align: center;
-	width: 110%;
+	width: 100%;
 }
 .headlink:hover{
 	color: #66FCF1;
@@ -71,7 +67,16 @@ margin:0px 5% 0px 10%;}
 }
 
 .navbar-toggler{
-	    /*border: 1px solid #c5c6c7;*/
+	    height: 3em;
+	    border-radius: 30px;
+	    color: #66FCF1;
+	    background:rgba(0,0,0,1);
+}
+.navbar-toggler:hover{
+	border: 2px solid #66FCF1;
+	/*background: #30C0c0;*/
+	/*border-color: #66;*/
+	/*background-image: url("images/logo1.png");*/
 }
 .nav-link {
     display: inline-block;
@@ -95,14 +100,50 @@ margin:0px 5% 0px 10%;}
 	/*border:solid #66FCF1 1px;*/
 }
 .container-fluid .row{
-	padding: 0px 55px 0px 55px;
+	padding: 0px 55px;
 	margin-bottom: 50px;
 }
 .playlist-header{
 	color:#66FCF1;
-	margin-top: 10px;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-family: 'Alata', sans-serif;
+	width:100%;
+	margin-top: 3%;
 }
+.emo-row .row{
+	padding: 0px 55px 0px 30px;
+}
+#man_emo{
+	width:100%;
+	margin:2% 4%;
+	/*margin:0px auto;*/
+}
+.man-but-div{
+	display: inline-block;
+	padding-top:25px;
+	height: 80px;
+	border: solid #66FCF1 1px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left:3.5%;
+	margin-top: 40px;
+	margin-right: 4.3%;
+	/*font-size: 1.1rem;*/
+	font-weight:700;
+	color:#66FCF1;
+}
+.man-but-div:hover{
+	background: #66FCF1;
+	color: #1b1c20;
 
+}
+@media(max-width: 991px){
+.eve{
+	margin-top: 15%;
+}}
+@media(max-width: 767px){
+	.man-head-sm{
+		margin-left: 30px;
+	}
+}
