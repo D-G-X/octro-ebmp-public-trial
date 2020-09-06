@@ -38,8 +38,12 @@ a{
 }
 #headsec{
 	background-color: rgba(0,0,0,1);
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 	 /*with black*/
 	/*background-color:rgba(102, 252, 241, 1);*/
+	z-index: 100;
+	position: sticky;
+	top:0;
 }
 /*container{
 	margin: 0px 0px;
@@ -47,9 +51,10 @@ a{
 .headlink{
 	display: inline-block;
 	margin: 0px 10px;
-	border-radius:  500px;
+	border-radius: 500px;
 	text-align: center;
 	width: 100%;
+	font-weight: bold;
 }
 .headlink:hover{
 	color: #66FCF1;
@@ -96,6 +101,7 @@ margin:0px 5% 0px 10%;}
 	padding:0px;
 	width:100%;
 	height: 500px;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 	/*display: inline-block;*/
 	/*border:solid #66FCF1 1px;*/
 }
@@ -110,6 +116,7 @@ margin:0px 5% 0px 10%;}
 	font-family: 'Alata', sans-serif;
 	width:100%;
 	margin-top: 3%;
+	text-shadow:3px 3px rgba(0,0,0,0.3);
 }
 .emo-row .row{
 	padding: 0px 55px 0px 30px;
@@ -132,10 +139,12 @@ margin:0px 5% 0px 10%;}
 	font-size: 1rem;
 	font-weight:900;
 	color:#66FCF1;
+	box-shadow: 0 20px 15px 0 rgba(0, 0, 0, .24), 0 25px 50px 0 rgba(0, 0, 0, .19);
 }
 .man-but-div:hover{
 	background: #66FCF1;
 	color: #1b1c20;
+	box-shadow: 0px 0px;
 
 }
 @media(max-width: 991px){
@@ -169,6 +178,7 @@ margin:0px 5% 0px 10%;}
 	border-right: 0px;
 	display: inline-block;
 	font-weight:bolder;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 .sigbtn{
 	font-family: 'Roboto Mono', sans-serif;
@@ -179,6 +189,7 @@ margin:0px 5% 0px 10%;}
 	border-left: 0px;
 	display: inline-block;
 	font-weight:bolder;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 @media(max-width: 700px){
 	.logbtn{
@@ -218,6 +229,7 @@ background-color: #30C0c0;
 	font-size: 3rem;
 	text-align: center;
 	margin: 60px 0px 50px 0px;
+	text-shadow:3px 3px rgba(0,0,0,0.3);
 }
 .form-row{
 width:100%;
@@ -232,6 +244,8 @@ margin-bottom: 80px;
 	margin-left:40px;
 	font-size: 1.2rem;
 	width:200px;
+	text-shadow:3px 3px rgba(0,0,0,0.3);
+
 }
 .input-box{
 	font-size: 1.2rem;
@@ -243,7 +257,7 @@ margin-bottom: 80px;
 	color:#66FCF1;
 	border-radius: 10px;
 	text-align: center;
-
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 ::placeholder {
   color: #66FCF1;
@@ -257,6 +271,7 @@ l.keep-row{
 }
 .keeplabel{
 	width:100%;
+	text-shadow:3px 3px rgba(0,0,0,0.3);
 }
 .btn-posi{
 	padding:8px;
@@ -278,6 +293,7 @@ l.keep-row{
 	color:#66FCF1;
 	width:150px;
 	font-size: 1.5rem;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 .button-cust:hover{
 background-color: #66FCF1;
