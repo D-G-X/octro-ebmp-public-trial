@@ -315,7 +315,8 @@ color:#1b1c20;
 	margin-bottom: 40px;
 	padding: 0px;
 	height: 620px;
-/* 	display:none; */
+	/*home-page biglogo*/
+	/*display:none;*/
 }
 .jumbo-img-head{
 	width:100%;
@@ -348,13 +349,13 @@ color:#1b1c20;
 	font-family: 'Alata', sans-serif;
 	width:85%;
 	margin-left: 7.5%;
-	margin-right: 7.5%;
+	margin-right:7.5%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-shadow:3px 3px rgba(0,0,0,0.3)
 }
 hr.hr-head{
-	width:70%;
+	width:80%;
 	border:solid #66fcf1 1px;
 	border-bottom: 0px;
 	border-left:0px;
@@ -363,40 +364,80 @@ hr.hr-head{
 }
 .solo-song{
 /*border:#fff solid 1px;*/
-display: inline-block;
-width:85%;
-padding:0px;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 10px;
+margin-bottom: 10px;
 }
-.song-ifra{
+.song-box{
 	display: inline-block;
 	/*border:#66FCF1 solid 1px;*/
-	margin: 20px 3%;
-	padding:0px;
-	min-height: 240px;
-	min-width: 240px;
-	max-width: 240px;
-	max-height: 240px;
+	padding: 0px;
+	width:90%;
+	height: 350px;
+	min-width: 300px;
+	/*max-width: 470px;*/
+	margin:0px 10px 20px 10px; 
 }
 .solo-playlist{
-	/*border:#fff solid 1px;*/
-display: inline-block;
-width:85%;
-padding:0px;
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	margin-top: 10px;
-	margin-bottom: 0px;
+/*border:#fff solid 1px;*/
+/*width:90%;*/
+margin-left: 6%;
+margin-right: 4.5%;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 .play-ifra{
 	display: inline-block;
 	/*border:#66FCF1 solid 1px;*/
 	padding:0px;
-	margin:2% 4%;
-	width:50%;
-	min-width: 500px;
-	height:600px;
+	margin:3% 0%;
+	min-width: 420px;
+	height:580px;
+}
+
+
+@media(min-width: 992px){
+.song-box:nth-child(1){
+	margin-right: 10%;
+}
+.song-box:nth-child(2){
+	margin-right: 0%;
+}
+.solo-song{margin-left: 13%;}
+
+.solo-playlist{
+	margin-left: 4%;
+	margin-right: 0%;
+}
+.play-ifra:nth-child(1){
+	margin-right: 5%;
+	margin-left: 0%;
+}
+.play-ifra:nth-child(2){
+	margin-left: 4%;
+	margin-right: 0%;
+}
+}
+
+
+@media(min-width: 1200px){
+.solo-playlist{
+	
+margin-left: 5%;
+margin-right:0%;
+}
+.play-ifra{
+	width:80%;
+	min-width:500px;
+	min-height:800px;
+}
+.play-ifra:nth-child(1){
+	margin-right: 3%;
+	margin-left: 0%;
+}
+.play-ifra:nth-child(2){
+	margin-left: 4%;
+	margin-right: 0%;
+}
 }
