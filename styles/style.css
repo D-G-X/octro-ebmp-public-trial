@@ -6,7 +6,7 @@ body{
 	/*black*/
 	background:#1b1c20; 
 	/*final*/
-
+max-width: 100%;
 	/*background: #7d7d7d;*/
 
 }
@@ -37,7 +37,7 @@ a{
 	color: #000;
 }
 #headsec{
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(0,0,0,0.8);
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 	 /*with black*/
 	/*background-color:rgba(102, 252, 241, 1);*/
@@ -53,7 +53,7 @@ a{
 	margin: 0px 10px;
 	border-radius: 500px;
 	text-align: center;
-	width: 100%;
+	width: 98%;
 	font-weight: bold;
 }
 .headlink:hover{
@@ -234,7 +234,7 @@ background-color: #30C0c0;
 .form-row{
 width:100%;
 height:60px;
-min-height:60px;
+min-height: 60px;
 margin:0px ;
 margin-bottom: 80px;
 }
@@ -300,4 +300,103 @@ l.keep-row{
 .button-cust:hover{
 background-color: #66FCF1;
 color:#1b1c20;
+}
+.container-fluid{
+	padding: 0px;
+}
+#home-card-contain>.row{
+	padding: 0px;
+	margin:0px 0px 0px 0px;
+}
+.jumbotron-fluid{
+	/*background-color: #66FCF1;*/
+	background-color: rgba(0,0,0,1);
+	margin-top: -275px;
+	margin-bottom: 40px;
+	padding: 0px;
+	height: 620px;
+	display:none;
+}
+.jumbo-img-head{
+	width:100%;
+
+}
+.jumbo-img{
+	height: 900px;
+	width:100%;
+}
+@media(max-width: 992px){
+	.jumbotron-fluid,.jumbotron,.jumbo-img{
+		display:none;
+	}
+}
+
+.home-cards{
+	width:100%;
+	/*border:#fff solid 1px;*/
+	/*padding-bottom: 10px;*/
+	/*padding-left: auto;*/
+	/*padding-right: auto;*/
+}
+.card-head{
+	/*width:100%;*/
+	/*border:#fff solid 1px;*/
+	color:#66FCF1;
+	display: inline-block;
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: 'Alata', sans-serif;
+	width:85%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow:3px 3px rgba(0,0,0,0.3)
+}
+hr.hr-head{
+	width:70%;
+	border:solid #66fcf1 1px;
+	border-bottom: 0px;
+	border-left:0px;
+	border-right: 0px;
+	margin-top: 1%;
+}
+.solo-song{
+/*border:#fff solid 1px;*/
+display: inline-block;
+width:85%;
+padding:0px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.song-ifra{
+	display: inline-block;
+	/*border:#66FCF1 solid 1px;*/
+	margin: 20px 3%;
+	padding:0px;
+	min-height: 240px;
+	min-width: 240px;
+	max-width: 240px;
+	max-height: 240px;
+}
+.solo-playlist{
+	/*border:#fff solid 1px;*/
+display: inline-block;
+width:85%;
+padding:0px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.play-ifra{
+	display: inline-block;
+	/*border:#66FCF1 solid 1px;*/
+	padding:0px;
+	margin:2% 4%;
+	width:50%;
+	min-width: 500px;
+	height:600px;
 }
