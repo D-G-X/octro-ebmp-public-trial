@@ -444,3 +444,32 @@ margin-right:0%;
 .row{
 	max-width: 100%;
 }
+
+
+.card-head-emo{
+font-size: 2rem;
+}
+hr.hr-head-emo{
+	width:50%;
+}
+.card-head-event{
+font-size: 2.5rem;
+}
+hr.hr-head-event{
+	width: 100%;
+}
+.card-event-head{
+font-size: 4rem;
+}
+hr.hr-event-head{
+	width: 60%;
+}
+.card-event-head-nav{
+color: #66FCF1;
+text-decoration: none;
+}
+.card-event-head-nav:hover{
+text-decoration: none;
+color:#30C0c0;
+text-shadow: 0px;
+}
