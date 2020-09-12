@@ -593,3 +593,7 @@ font-weight: bolder;
 	width: 100%;
 	height:100%;
 }
+.ebmp-foot{
+position: static;
+	bottom: 0;
+}
