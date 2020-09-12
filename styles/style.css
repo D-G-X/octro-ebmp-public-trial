@@ -599,7 +599,6 @@ font-weight: bolder;
 @media(min-width:500px){
 .ebmp-foot{
 position: relative;
-top: 200px;
-	border:#fff solid 0px;
+top: 250px;
 }
 }
