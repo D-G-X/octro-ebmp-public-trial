@@ -44,6 +44,7 @@ a{
 	z-index: 100;
 	position: sticky;
 	top:0;
+	border-radius:0px 0px 10px 10px;
 }
 /*container{
 	margin: 0px 0px;
@@ -472,4 +473,123 @@ text-decoration: none;
 text-decoration: none;
 color:#30C0c0;
 text-shadow: 0px;
+}
+.contain-team-mem{
+	margin:0px;
+	padding: 0px;
+}
+#team-mem-box-darren{
+	width:30%;
+	height: 60%;
+	display: inline-block;
+	margin: 20px 10% 50px 15%;
+}
+#team-mem-box-atty{
+	width:30%;
+	height: 60%;
+	display: inline-block;
+	margin: 20px 0% 50px 0%;
+}
+#team-mem-box-aftab{
+	width:30%;
+	height: 60%;
+	display: inline-block;
+	margin: 20px 10% 50px 15%;
+}
+#team-mem-box-richie{
+	width:30%;
+	height: 60%;
+	display: inline-block;
+	margin: 20px 0% 50px 0%;
+}
+.team-mem-img{
+width:100%;
+height: 100%;
+display: block;
+border-radius: 20px;
+}
+.team-mem-name{
+	color:#30C0c0;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.team-mem-img-box{
+	/*background-color:#66fcf1;*/
+}
+.team-mem-social{
+	/*background-color: #66fcf1;*/
+}
+.ebmp-foot{
+	background: rgba(0,0,0,1);
+	/*border:#fff solid 1px;*/
+	height: 100%;
+	width: 100%;
+}
+#social-foot{
+	border:#66FCF1 solid 1px;
+	background: rgba(0,0,0,1);
+	color: #66FCF1;
+	border-radius: 30px;
+	display: inline-block;
+	width: 40%;
+	margin: 20px 8%;
+	margin-right: 10%;
+	padding-bottom: 20px;
+}
+#team-foot{
+	display: inline-block;
+	background: #66FCF1;
+	border-radius: 30px;
+	border:#000 solid 1px;
+	width: 30%;
+	margin: 20px 0%;
+	padding-bottom: 20px;
+	border:#66FCF1 solid 1px;
+	background: rgba(0,0,0,1);
+	color: #66FCF1;
+}
+
+#cont-foot{
+	/*display: inline-block;*/
+	border:#000 solid 1px;
+	border-radius: 30px;
+	background: #66FCF1;
+	width: 80%;
+	margin: 50px 8% 20px 8%;
+	padding-bottom: 20px;
+		border:#66FCF1 solid 1px;
+	background: rgba(0,0,0,1);
+	color: #66FCF1;
+}
+.foot-ele-head{
+text-align: center;
+font-size: 1.2rem;
+margin-top: 20px;
+font-weight: bolder;
+/*border: #ff0000 solid 1px;*/
+}
+.team-foot-ele{
+	text-align: center;
+	color: #66FCF1;
+	font-size:1.5rem; 
+}
+.team-foot-ele>a{
+	text-decoration: none;
+	color: #66FCF1;
+}
+.ebmp-foot>.row{
+	margin: 0px;
+	padding: 50px 5%;
+	padding-top:30px; 
+}
+.foot-head-img-box{
+	padding-top:30px;
+	width: 300px;
+	height: 130px;
+	display: block;
+	margin: 50px 0% 0px 0%;
+}
+.foot-head-image{
+	width: 100%;
+	height:100%;
 }
