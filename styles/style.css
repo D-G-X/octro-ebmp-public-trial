@@ -325,7 +325,7 @@ color:#1b1c20;
 
 }
 .jumbo-img{
-	height: 900px;
+	height: 850px;
 	width:100%;
 }
 @media(max-width: 1200px){
@@ -522,7 +522,7 @@ border-radius: 20px;
 }
 .ebmp-foot{
 	background: rgba(0,0,0,1);
-/* 	border:#fff solid 1px; */
+	/*border:#fff solid 1px;*/
 	height: 100%;
 	width: 100%;
 	margin-top: 100px;
