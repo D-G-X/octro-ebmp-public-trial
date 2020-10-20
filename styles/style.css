@@ -524,7 +524,7 @@ border-radius: 20px;
 .ebmp-foot{
 	background: rgba(0,0,0,1);
 	/*border:#fff solid 1px;*/
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
 	margin-top: 100px;
 }
@@ -564,6 +564,7 @@ margin-top: 20px;
 font-weight: bolder;
 /*border: #ff0000 solid 1px;*/
 }
+
 .team-foot-ele{
 	text-align: center;
 	color: #66FCF1;
@@ -576,7 +577,7 @@ font-weight: bolder;
 }
 .ebmp-foot>.row{
 	margin: 0px;
-	padding-top:30px; 
+	/*padding-top:30px; */
 }
 .foot-head-img-box{
 	padding-top:30px;
@@ -589,6 +590,9 @@ font-weight: bolder;
 	width: 100%;
 	height:100%;
 	margin-left: 50px;
+}
+#cont-foot .team-foot-ele{
+	font-size: 1rem;
 }
 .social-link{
 margin-top: 20px;
